@@ -7,7 +7,3 @@ Basicamente o algoritmo cria um docx a partir de um template onde estão marcado
 ![](https://github.com/LeonardoWaldomiro/redesigned-chainsaw/blob/main/download%20(1).png)
 
 Após realizar esse processo, o arquivo é salvo no formato "CNPJ tal - Declarações". 
-
-Por trabalhar linha a linha da planilha, usei a estrutura de repetição for indo de 0 a 122 e um except com print do cnpj caso dê problema ao salvar o arquivo. 
-
-
