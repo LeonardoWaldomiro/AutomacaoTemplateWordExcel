@@ -2,8 +2,7 @@ Usei este algoritmo para criar 122 docx diferentes com base em uma planilha no e
 
 ![](https://github.com/LeonardoWaldomiro/redesigned-chainsaw/blob/main/download.png)
 
-Basicamente o algoritmo cria um docx a partir de um template onde estão marcados os locais chaves que devem ser substituidos. Por exemplo como podemos ver abaixo há uma parte escrita "{{CNPJ}}". O script identifica essas partes(no meu caso foram 3), formata conforme o padrão que foi estabelecido por mim e substitui conforme a linha da planilha que ele está trabalhando. O mesmo funciona para "{{Endereço}}".
+Basicamente o algoritmo cria um docx a partir de um template onde estão marcados os locais chaves que devem ser substituidos. Por exemplo como podemos ver abaixo há uma marcação para os campos {{CNPJ}} e {{endereço}}. O script identifica essas marcações, busca na planilha os dados para substituição, formata conforme o padrão que foi estabelecido e reescreve no template. Em seguida ele salva o documento com o nome sendo "{cnpj} - Declarações". Após realizar esse procedimento ele passa para a proxima linha da planilha e faz o mesmo até acabar.
 
 ![](https://github.com/LeonardoWaldomiro/redesigned-chainsaw/blob/main/download%20(1).png)
 
-Após realizar esse processo, o arquivo é salvo no formato "CNPJ tal - Declarações". 
